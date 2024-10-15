@@ -23,9 +23,9 @@ const Skill = () => {
   }, []);
 
   return (
-    <div className="lg:h-screen place-items-center flex justify-around items-center">
+    <div className="lg:h-screen place-items-center flex justify-around items-center" id="skill">
       <div className="p-8 md:flex md:justify-center" id="skill">
-        <div className="border-4 border-[#306398] p-12 rounded-3xl grid lg:grid-cols-4 grid-cols-2 md:mx-[10vh] my-auto gap-8 md:gap-12 md:gap-x-20 border border-[#306398]">
+        <div className="p-12 rounded-3xl grid lg:grid-cols-4 grid-cols-2 md:mx-[10vh] my-auto gap-8 md:gap-12 md:gap-x-20 border border-[#306398]">
           <div>
             <h2 className="text-3xl font-extrabold">
               My <br />

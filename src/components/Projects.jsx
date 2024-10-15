@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       className="bg-[#306398] min-h-screen mx-auto flex-col justify-center p-16 text-[#f0ede6]"
-      id="work"
+      id="projects"
     >
       <div className="pb-8 flex flex-col items-center">
         <p className="text-6xl mb-3 font-bold text-[#f0ede6]">Projects</p>
@@ -71,6 +71,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    // sample comment
   );
 };
 

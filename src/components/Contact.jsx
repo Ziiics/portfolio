@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Contact = () => {
   return (
-    <div className="min-h-[85vh] pt-10 flex flex-col items-center justify-center">
+    <div className="min-h-[85vh] pt-10 flex flex-col items-center justify-center" id="contact">
       <ScrollAnimation
         animateIn="fadeIn"
         className="lg:text-6xl text-4xl duration-1000 font-bold"
@@ -57,7 +57,7 @@ const Contact = () => {
                         id=""
                         placeholder="Your Name"
                         className="w-full md:px-8 md:py-6 p-4 text-[#306398] placeholder-[#306398] font-mono text-l
-                                rounded-2xl border-2 border-[#306398] focus:border-orange-300"
+                                rounded-2xl border-2 bg-white border-[#306398] focus:border-orange-300"
                       />
                     </div>
                   </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                         id=""
                         placeholder="Your Email"
                         className="w-full md:px-8 md:py-6 p-4 text-[#306398] placeholder-[#306398] font-mono text-l
-                                rounded-2xl border-2 border-[#306398] focus:border-orange-300"
+                                rounded-2xl border-2 bg-white border-[#306398] focus:border-orange-300"
                       />
                     </div>
                   </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                         id=""
                         placeholder="Your Message"
                         className="w-full md:px-8 md:py-6 p-4 text-[#306398] placeholder-[#306398] font-mono text-l
-                                rounded-2xl border-2 border-[#306398] focus:border-orange-300"
+                                rounded-2xl border-2 bg-white border-[#306398] focus:border-orange-300"
                         rows="4"
                       />
                     </div>
